@@ -1,0 +1,10 @@
+cat <<'EOF' > .gitignore
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+EOF
